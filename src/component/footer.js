@@ -23,37 +23,45 @@ const Footer = () => {
                                 <img src={logo} className="w-8 h-8" alt="logo" />
                                 <h2 className='font-sans text-gray-dark text-2xl font-bold'>Foodie</h2>
                             </div>
-                            <div className='grid grid-cols-4 gap-6 md:gap-16 justify-start items-start'>
-                                <li className='cursor-pointer'>Home</li>
-                                <li className='cursor-pointer'>Packages</li>
-                                <li className='cursor-pointer'>About Us</li>
-                                <li className='cursor-pointer'>Contact Us</li>
+                            <div className='grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-10 lg:gap-16 justify-start items-start text-center md:text-left text-2xl md:text-lg'>
+                                <div className='cursor-pointer'>
+                                    <h1>Home</h1>
+                                    <div className="flex flex-row md:flex-col lg:flex-row items-left gap-10  mt-6 lg:mt-12 ">
+                                        <li><FaTwitter /></li>
+                                        <li><FaFacebook /></li>
+                                        <li><FaInstagram /></li>
+                                    </div>
+                                </div>
+                                <div className='cursor-pointer'>
+                                    <h1>Company</h1>
+                                    <div className="flex flex-col items-left font-normal mt-6 lg:mt-12 ">
+                                        <li>Quality</li>
+                                        <li>Help</li>
+                                        <li>Share</li>
+                                        <li>Career</li>
+                                    </div>
+                                </div>
+                                <div className='cursor-pointer'>
+                                    <h1>About Us</h1>
+                                    <div className="flex flex-col items-left font-normal mt-6 lg:mt-12 ">
+                                        <li>Terms & Conditions</li>
+                                        <li>Privacy Policy</li>
+                                    </div>
+
+                                </div>
+                                <div className='cursor-pointer'>
+                                    <h1>Contact Us</h1>
+                                    <div className="flex flex-col items-left font-normal  mt-6 lg:mt-12">
+                                        <li>234 80 800 000</li>
+                                        <li>hello@email.com</li>
+                                        <li>Lagos, Nigeria</li>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div className='grid grid-cols-4 text-gray-light text-left list-none text-md'>
-                            <div className="flex flex-col md:flex-row gap-10 mt-0 lg:mt-12 md:mt-0">
-                                <li><FaTwitter /></li>
-                                <li><FaFacebook /></li>
-                                <li><FaInstagram /></li>
-                            </div>
-                            <div>
-                                <li>Quality</li>
-                                <li>Help</li>
-                                <li>Share</li>
-                                <li>Career</li>
-                            </div>
-                            <div>
-                                <li>234 80 800 000</li>
-                                <li>hello@email.com</li>
-                                <li>Lagos, Nigeria</li>
 
-                            </div>
-                            <div>
-                                <li>Terms & Conditions</li>
-                                <li>Privacy Policy</li>
-                            </div>
-                        </div>
                     </div>
                     <h2 className='z-10'>&copy; MissVeev {(new Date().getFullYear())} All rights reserved.</h2>
                 </div>
