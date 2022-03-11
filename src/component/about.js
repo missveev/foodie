@@ -8,7 +8,7 @@ const About = () => {
     return (
         <>
 
-            <section className='relative px-10 md:px-16 lg:px-28 py-16'>
+            <section className='relative px-10 md:px-16 lg:px-28 py-16' id="about">
                 <img src={middle} className="top-auto left-0 absolute h-1/2 w-1/3 md:w-2/6 md:h-1/2 lg:h-screen" alt="design" />
                 <div className=" container flex flex-col lg:flex-row items-center gap-20  ">
                     <motion.div

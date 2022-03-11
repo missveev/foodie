@@ -9,7 +9,7 @@ const Work = () => {
     return (
         <>
       
-            <section className='relative px-10 md:px-16 lg:px-28 py-16 bg-grey'>
+            <section className='relative px-10 md:px-16 lg:px-28 py-16 bg-grey' id="work">
             <img src={peppered} className="absolute w-28 md:w-64 top-0 md:-top-24 right-0" alt="pepper" />
                 <div className='flex flex-col justify-center items-center'>
                     <div>

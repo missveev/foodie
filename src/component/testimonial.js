@@ -16,7 +16,7 @@ const Testimonial = () => {
     return (
         <>
             <img src={lettuce} className="absolute w-32 md:w-72 right-0" alt="lettuce" />
-            <section className='relative px-10 md:px-16 lg:px-28 py-16'>
+            <section className='relative px-10 md:px-16 lg:px-28 py-16' id="testimonial">
                 <div className='flex flex-col justify-center items-center'>
                     <div className='z-10'>
                         <h1 className='text-4xl md:text-5xl font-bold mb-6'>What They Are Saying</h1>

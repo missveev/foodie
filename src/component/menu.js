@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const Menu = () => {
     return (
         <>
-            <section className='px-10 md:px-16 lg:px-28 py-20'>
+            <section className='px-10 md:px-16 lg:px-28 py-20' id="packages">
                 <div className='flex flex-col justify-center items-center'>
                     <div>
                         <h1 className='text-4xl md:text-5xl font-bold mb-6'>Explore Our Best Menu</h1>

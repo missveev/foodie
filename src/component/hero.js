@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
     return (
         <>
-            <section className='px-10 md:px-16 lg:px-28 pt-12'>
+            <section className='px-10 md:px-16 lg:px-28 pt-12' id="home">
 
                 <div className=" container flex flex-col-reverse lg:flex-row justify-center items-center gap-12 ">
                     <motion.div

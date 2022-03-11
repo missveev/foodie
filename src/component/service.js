@@ -8,7 +8,7 @@ const Service = () => {
     return (
         <>
 
-            <section className='relative px-10 md:px-16 lg:px-28 py-16'>
+            <section className='relative px-10 md:px-16 lg:px-28 py-16' id="contact">
             <img src={pepper} className=" absolute sm:top-0 md:-top-24 left-0 w-28 md:w-64  " alt="pepper" />
                 <div className='grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-3 justify-center items-center pt-10 text-l md:text-xl'>
                     <div className='flex flex-col items-center font-xl '>
